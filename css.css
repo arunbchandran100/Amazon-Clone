@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box; /* border is used inside 
+    the div area only, and not on outside of the 
+    div area(so content area will become small)*/
+}
+
+.navbar{
+    height: 60px;
+    background-color: #0f1111;
+    padding-top: 6px;
+}
+
+.nav-logo{
+    height: 42px;
+    width: 125px;
+    /* padding: 2px;  */
+    margin-left: 10px;
+    /* background-color: pink; */
+    /* border: 4px blue solid; */
+    text-align: center;
+}
+
+.logo-image{
+    /* border: 3px red solid; */
+    height: 30px;
+    padding-top: 6px;
+}
+
+.border{
+    border: 2px solid transparent;
+    
+}
+
+.border:hover{
+    border: 2px solid white;
+}
+
