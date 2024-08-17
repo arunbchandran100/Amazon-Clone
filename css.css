@@ -9,10 +9,15 @@
 .navbar{
     height: 60px;
     background-color: #0f1111;
-    padding-top: 6px;
+    /* padding-top: 6px; */
+    display: flex;
+    align-items: center;
+    color:white;
+    justify-content: space-evenly;
 }
 
-.nav-logo{
+.sub
+.first-box{
     height: 42px;
     width: 125px;
     /* padding: 2px;  */
@@ -35,5 +40,208 @@
 
 .border:hover{
     border: 2px solid white;
+}nav
+
+.second-box{
+    
+    align-items: center; /* y-axis center */
+    justify-content: center;
+    padding: 8px 4px 0px 4px;
+    margin-left:5px;
+    margin-right: 5px;
 }
 
+.loc-upd{
+    display: flex;
+}
+
+.delivering{
+    font-size: .6rem;
+    justify-items: center;
+    margin-left: 17px;
+}
+
+.Update{
+    font-size: .7em;
+    margin-left: 4px;
+    font-weight: bold ;
+}
+
+.fa-solid{
+    margin-bottom:10px;
+    font-size:.9em;
+}
+
+
+.third-box{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    height: 1.8em;
+    width: 44em;
+    /* background-color: purple; */
+}
+
+.all{
+    height: 2.1em;
+    background-color: #E6E6E6;
+    border-radius: 5px 0px 0px 5px;
+}
+
+.search-input{
+    height: 1.4rem;
+    width: 40rem;
+}
+
+.search-button{
+    height: 1.715em;
+    width: 2em;
+    background-color: #a6a626;
+    text-align: center;
+    /* padding-top: 5px;  */
+    display: flex;
+    border-radius: 0px 5px 5px 0px;
+
+}
+
+.button-icon{
+    /* text-align: center; */
+    height: 1.8em;
+    width: 2em;
+    /* padding-top: 5px; */
+}
+
+.fa-magnifying-glass{
+    position: relative;
+    top: .3em;
+}
+
+.forth-box{
+    display: flex;
+    height: 50px;
+    width: 73px;
+    margin-left: 10px;
+    margin-right: 5px;
+    align-items: center;
+    justify-content: center;
+}
+
+.flag-icon{
+    height: 20px;
+    width: 21px;
+}
+
+.flag-image{
+    height: 20px;
+    width: 21px;
+}
+
+.EN-lang{
+    display: flex;
+    margin-left: 3px;
+}
+
+.fa-solid.fa-sort-down{
+    margin-left: .6px;
+    height: 2px;
+    width: 2px;
+}
+
+.fifth-box{
+    height: 50px;
+    width: 120px;
+    margin-left: 5px;
+    margin-right: 5px;
+    align-items: center;
+    justify-items: center;
+}
+
+.fifth-elements{
+    position: relative;
+    top:.8em;
+    left: .5em;
+    
+}
+
+.hello{
+    justify-content: center;
+    align-items: end;
+}
+
+.hello-sign{
+    font-size: 10px;
+}
+
+.accounts{
+    display: flex;
+    font-size: 12px;
+    justify-items: center;
+    font-weight: bold;
+    width: 120px;
+}
+
+
+.sixth-box{
+    height: 50px;
+    width: 4.5em; 
+    margin-left: 5px;
+    margin-right: 5px;
+    align-items: center;
+    justify-items: center;
+}
+
+.seventh-box{
+    height: 50px;
+    width: 4.5em; 
+    margin-left: 5px;
+    margin-right: 5px;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+
+
+.accounts.cart{
+    font-size: 1em;
+    position: relative;
+    top:.34em;
+
+}
+
+.fa-solid.fa-cart-shopping{
+    font-size: 1.5em;
+    position: relative;
+    top:.3em;
+}
+
+.sub-nav{
+    height: 39px;
+    background-color: #232f3e;
+    color: white;
+    display: flex;
+    justify-content:space-evenly;
+    /* text-align: center; */
+    align-items: center;
+}
+
+.sub-menu{
+    display: flex;
+    align-items: center;
+    
+}
+
+.fa-solid.fa-bars{
+    height: 1em;;
+    position: relative;
+    top: .30em;
+    margin-right: .2em;
+}
+
+
+/* main slide */
+
+.m-slide{
+    background-image:url("images/main-slide.jpg");
+    height: 18em;
+    background-size: cover;
+}
