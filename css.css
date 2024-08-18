@@ -249,7 +249,7 @@
 /* Main body */
 
 body{
-    background-color: #e2ebeb;
+    background-color: #d5dbdb;
 }
 .f-stack{
     /* height: 24em; */
@@ -262,25 +262,28 @@ body{
 
 .box{
     background-color: #ffff;
-    width: 22%;
+    width: 19.2%;
     height: 22em;
     /* border: 1px black solid; */
     display: flex;
     flex-direction: column;
     justify-content: center;
     /* align-items: center; */
+    
 }
+
 
 .fs1-grid{
     display: grid;
     grid-template-columns: 40% 40%;
-    gap: 10%;
+    gap: 15%;
 }
 
 .item-img-grid{
-    height: 7.6em;
+    height: 6em;
+    width: 9em;
     background-repeat: no-repeat;
-
+    background-size: cover;
     /* width: ; */
 }
 
@@ -294,10 +297,13 @@ body{
 }
 
 .see-more{
-    padding-top: 13%;
+    padding-top: 20%;
     color: #007185;
 }
 
 .item-desc{
     font-size: 70%;
 }
+
+
+/* second stack */
