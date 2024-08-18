@@ -35,7 +35,7 @@
 
 .border{
     border: 2px solid transparent;
-    
+    display: grid;
 }
 
 .border:hover{
@@ -158,14 +158,15 @@
 
 .fifth-elements{
     position: relative;
-    top:.8em;
+    /* top:.8em; */
     left: .5em;
-    
+    justify-content: center;
+    align-items: center;
 }
 
 .hello{
     justify-content: center;
-    align-items: end;
+    /* align-items: center; */
 }
 
 .hello-sign{
@@ -248,9 +249,13 @@
 
 /* Main body */
 
-body{
+.main-body{
     background-color: #d5dbdb;
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 2em;
 }
+
 .f-stack{
     /* height: 24em; */
     width: 100%;
@@ -291,14 +296,23 @@ body{
     padding: 2%;
 }
 
+.heading{
+    font-weight: bolder;
+    font-size: 1.3em;
+}
+
 .fs1-heading{
     padding-bottom: 6%;
-    font-weight: bolder;
+    /* font-size: 1.3em; */
 }
 
 .see-more{
-    padding-top: 20%;
+    
     color: #007185;
+}
+
+.fs-see-more{
+    padding-top: 20%;
 }
 
 .item-desc{
@@ -307,3 +321,92 @@ body{
 
 
 /* second stack */
+.s-stack{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.row-stack{
+    height: 285px;
+    width: 90.4em;
+    /* border: 5px red solid; */
+    background-color: #ffff;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+    padding-left: 2em;
+    /* padding-right: 2em; */
+
+}
+
+.top-part-h{
+    display: flex;
+}
+
+.images-cont{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.s2-box{
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 10em;
+    width: 10em;
+}
+
+.sec-stack-heading{
+    margin-right: 1em;
+    font-size: 1.3em;
+    margin-bottom: .5em;
+
+}
+
+.sec-stack-see-all{
+    margin-top: .4em;
+    font-size: .9em;
+}
+
+.s4-box{
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 11em;
+    width: 11em;
+}
+
+.row-stack-4{
+    margin-right: 2em;
+}
+
+
+/* one-img-stack3 */
+
+/* box1 */
+.one-img-stack3{
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 15em;
+    width: 19em;
+}
+
+.thirdstack-see-more{
+    margin-top: 1.7em;
+}
+
+.ts-2-heading{
+    margin-bottom: 1.8em;
+}
+
+.s3-box3-heading{
+    margin-bottom: 4em;
+}
+
+.s3-box3-item{
+    height: 6.5em;
+    width: 5em;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
